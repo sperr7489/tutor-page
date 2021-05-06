@@ -1,45 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Zen+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
 
-html {
-  background-image: url(image/background.jpg);
-  background-size: cover;
-}
+@import "page/main.css";
+@import "page/login.css";
 
 body {
   width: 100%;
   height: 100%;
-}
-
-h1 {
-  font-size: 50px;
-  text-align: center;
-  margin-top: 100px;
-  font-family: "Girassol", cursive;
-}
-.tutor-page__login {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-  opacity: 0.75;
-}
-input {
-  width: 400px;
-}
-.user-info {
-  padding: 15px 0;
-}
-
-.tutor-page__login-btn {
-  height: 40px;
-  width: 404px;
-  padding: 6px 0px;
-}
-.tutor-page__login-stay {
-  display: block;
-  width: 404px;
-  margin-top: 10px;
-  text-align: start;
 }
