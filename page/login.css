@@ -1,6 +1,6 @@
 html.login-html {
   background-image: url("image/background.jpg");
-  background-size: cover;
+  background-size: auto;
 }
 
 .login-page_title {
@@ -17,16 +17,14 @@ html.login-html {
   margin-top: 40px;
   opacity: 0.75;
 }
-.login-page__login input {
-  width: 400px;
-}
 .user-info {
+  width: 396px;
   padding: 15px 0;
 }
 
 .login-page__login-btn {
   height: 40px;
-  width: 404px;
+  width: 400px;
   padding: 6px 0px;
 }
 .login-page__login-stay {
