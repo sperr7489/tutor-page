@@ -1,0 +1,30 @@
+.inquire {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 500px;
+}
+
+.tutor-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tutor-info span:first-child {
+  font: 20px bold;
+}
+
+.inquire-input {
+  display: flex;
+  flex-direction: column;
+}
+.inquire-input > input {
+  width: 300px;
+}
+.inquire-input > div {
+  display: flex;
+}
+.table-input {
+  display: flex;
+  flex-direction: column;
+}
