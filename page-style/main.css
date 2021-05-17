@@ -1,6 +1,6 @@
 .main-body {
   width: 100%;
-  height: 200vh;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
