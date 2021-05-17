@@ -1,12 +1,27 @@
 div.scrollmenu {
+  display: flex;
   width: 100%;
   height: auto;
   overflow: auto;
   white-space: nowrap;
 }
 
+.scrollmenu-container {
+  position: relative;
+}
+.text {
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  display: none;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+}
 img {
   width: 500px;
   height: 400px;
   object-fit: cover;
+  filter: brightness(100%);
 }
