@@ -50,3 +50,13 @@
   margin: 4px 0;
   width: 100%;
 }
+#message {
+  height: 200px;
+}
+label {
+  margin-top: 4px;
+}
+div span {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
