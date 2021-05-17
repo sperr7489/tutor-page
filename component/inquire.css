@@ -19,19 +19,34 @@
 
 .inquire-input {
   display: flex;
+  width: 400px;
   flex-direction: column;
 }
 .inquire-input > input {
-  width: 300px;
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+  margin: 4px 0;
 }
+
 .inquire-input > div {
   display: flex;
 }
+.table-box {
+  display: flex;
+  justify-content: space-between;
+}
 .table-input {
   display: flex;
+  width: 200px;
   flex-direction: column;
 }
-
-.input-value {
+.table-input:nth-child(1) {
+  margin-right: 10px;
+}
+.table-input input {
+  box-sizing: border-box;
+  height: 40px;
   margin: 4px 0;
+  width: 100%;
 }
