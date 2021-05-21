@@ -15,8 +15,9 @@
         <h2>home</h2>
         <h2>소개</h2>
     </div>
-    <div class="profile">
-        <p>여기엔 나의 기본적인 프로필을 적어둔다.</p>
+    <div class="profile-container">
+        <img src="/image/profile.jpg" class="profile">
+        <p class="text">tutor-profile</p>
     </div>
     <div class="scrollmenu">
         <div class="scrollmenu-container">
@@ -32,8 +33,8 @@
             <div class="text">curriculum</div>
         </div>
         <div class="scrollmenu-container">
-            <img src="/image/calendar.jpg" alt="">
-            <div class="text">calendar</div>
+            <img src="/image/schedule.jpg" alt="">
+            <div class="text">schedule</div>
         </div>
 
     </div>
@@ -56,7 +57,7 @@
                 </div>
                 <div class="table-input">
                     <label for="phone-number" class="input-type">전화번호</label>
-                    <input type="number" id="phone-number" placeholder="전화번호를 입력해주세요" class="input-value">
+                    <input type="tel" id="phone-number" placeholder="전화번호를 입력해주세요" class="input-value">
                 </div>
             </div>
 
@@ -64,8 +65,10 @@
             <input type="text" id="input-title" placeholder="무엇에 대한 문의인가요?" class="input-value">
             <label for="message" class="input-type">메시지</label>
             <input type="text" id="message" placeholder="내용을 적어주세요" class="input-value">
+            <button class="input-value" type="submit">submit</button>
         </div>
     </div>
+    <script src="https://kit.fontawesome.com/c845c73afc.js" crossorigin="anonymous"></script>
     <script src="/page-js/main.js"></script>
 </body>
 
