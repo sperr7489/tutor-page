@@ -8,12 +8,15 @@ menuArr.forEach(element =>{
 
     element.addEventListener("mouseover", mouseoverElement);
     element.addEventListener("mouseout",mouseoutElement);
+    element.addEventListener("click",pageMove);
 });
 
 const profile = document.querySelector(".profile");
 
 profile.addEventListener("mouseover",mouseoverElement);
 profile.addEventListener("mouseout",mouseoutElement);
+profile.addEventListener("click",pageMove);
+
 
 function mouseoverElement(event){
 
@@ -26,7 +29,7 @@ function mouseoverElement(event){
         target.style.brightness ='40%';
         var str = source.split('/')[2].split('.')[0];
 
-        console.log(str);
+        console.log(str+".html");
 
 //event는 말그대로 event가 되었을 때를 나타내는것이다. 
 }
@@ -44,7 +47,8 @@ function pageMove(event){
     //클릭시에 페이지를 이동시키는 것.  
     var target = event.target;
     var source =target.getAttribute('src');
-    var str = source.split('/')[2].split('.')[0];
+    var str = source.split('/')[2].split('.')[0]+".html";
 
+    location.href = "/page/"+str;
 
 }
