@@ -1,6 +1,9 @@
 @import "reset.css";
-
+/*---------------component----------------- */
 @import "component/scroll.css";
 @import "component/inquire.css";
+@import "component/navi.css";
 
+/*---------------page----------------- */
 @import "page-style/main.css";
+@import "page-style/tutor-profile.css";
