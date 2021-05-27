@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+
+.tutor-data__head {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "Pattaya", sans-serif;
+}
